@@ -59,8 +59,8 @@
 
 .detail h1{
     font-family: 'Noto Sans TC', sans-serif;
-    -webkit-text-stroke: 0.1px gray;
-    text-shadow: 4px 4px 4px #333333;
+    /* -webkit-text-stroke: 0.1px gray;
+    text-shadow: 4px 4px 4px #333333; */
     color: rgba(0, 0, 0, 1);
 }
 
