@@ -58,17 +58,23 @@
 }
 
 .detail h1{
-    -webkit-text-stroke: 0.5px gray;
-    color: rgba(20, 20, 20,0.95);
-    text-shadow: 10px 10px 10px #333333;
+    font-family: 'Noto Sans TC', sans-serif;
+    -webkit-text-stroke: 0.1px gray;
+    text-shadow: 4px 4px 4px #333333;
+    color: rgba(0, 0, 0, 1);
+}
+
+.detail p{
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgba(0, 0, 0, 1);
 }
 
 .page-1{
     height: 800px;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
     margin-bottom: 100px;
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(255,255,255,0.2);
 }
 
 .page-2{
