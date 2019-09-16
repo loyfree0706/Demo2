@@ -1,0 +1,14 @@
+section {
+  height: 100vh;
+}
+
+.g-img {
+  background-image: url('./img/mountain.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.g-word {
+  background-color: rgba(255,255,255,0.2);
+}

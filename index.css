@@ -1,0 +1,211 @@
+.delay{
+    display: none;
+}
+.header{
+    background-color: white;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.header .row{
+    height: 80px;
+}
+
+.text-to-center{
+    text-align: center;
+}
+
+.ul-none{
+    list-style: none;
+
+}
+.ul-none-inline li{
+    display: inline;
+    padding: 0 10px;
+
+}
+
+.ul-none-inline li a{
+    transform:color;
+    transition: all 0.5s ease-out;
+    color: black;
+}
+
+.ul-none-inline li .actived{
+    color: lightskyblue;
+}
+
+.ul-none-inline li a:hover{
+    transform:color;
+    transition: all 0.5s ease-out;
+    color: lightskyblue;
+}
+.row{
+    margin: 0 50px;
+}
+
+.h-800-page-1{
+    background-image: url('./img/mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.detail h1{
+    -webkit-text-stroke: 0.5px gray;
+    color: rgba(20, 20, 20,0.95);
+    text-shadow: 10px 10px 10px #333333;
+}
+
+.page-1{
+    height: 800px;
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 100px;
+    background-color: rgba(255,255,255,0.05);
+}
+
+.page-2{
+    height: 800px;
+    /* text-align: center; */
+    margin:0px;
+}
+
+.page2-1{
+    height: 100vh;
+    background-image: url('./img/doctor.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.page2-2{
+    height: 100vh;
+    padding: 200px 25px 0px 25px;
+    padding-top: 200px;
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
+.page2-2 p{
+    padding-left: 50px;
+}
+
+.page2-2 h1{
+    padding-bottom: 50px;
+}
+.btnn{
+    margin-top: 50px; 
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    transform:'color','background-color','border';
+    transition: all 0.5s ease-out;
+    text-align: center;
+}
+
+.btnn:hover{
+    background-color: white;
+    color: black;
+    border: solid black 2px;
+    transform:'color','background-color','border';
+}
+
+.btnnn{
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    transform:'color','background-color','border';
+    transition: all 0.5s ease-out;
+    text-align: center;
+}
+
+.btnnn:hover{
+    background-color: white;
+    color: black;
+    border: solid black 2px;
+    transform:'color','background-color','border';
+}
+
+.h-500{
+    height: 500px;
+    background-color: #79cdc8;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.page3-1{
+    padding-top: 100px;
+    padding-left: 250px;
+}
+.page3-2{
+    padding-top: 100px;
+    padding-left: 75px;
+}
+
+.page3-2 input{
+    width: 425px;
+}
+.page3-2 textarea{
+    width: 425px;
+}
+.page3-2 .subm{
+    width: 50px;
+    margin: auto;
+    margin-right:0px;
+}
+
+.page3-2 div form div input{
+    padding-left: 5px;
+    background-color: #79cdc8;
+    margin-bottom: 5px;
+    border: solid 2px black;
+}
+.page3-2 div form div input:hover{
+    background-color: #3ca59e;
+    margin-bottom: 5px;
+    border: solid 2px black;
+}
+.page3-2 div form div input:focus{
+    background-color: #dfebea;
+    margin-bottom: 5px;
+    border: solid 2px black;
+}
+.page3-2 div form div textarea{
+    padding-left: 5px;
+    background-color: #79cdc8;
+    border: solid 2px black;
+}
+.page3-2 div form div textarea:hover{
+    background-color: #3ca59e;
+    border: solid 2px black;
+}
+.page3-2 div form div textarea:focus{
+    background-color: #dfebea;
+    border: solid 2px black;
+}
+
+
+/* transform:color;
+transition: all 0.5s ease-out;
+color: black; */
+
+/* .pic{
+    width:500px;
+    height:350px;
+    overflow:hidden;
+}
+.pic img{
+    transform:scale(1,1);
+    transition: all 0.5s ease-out;
+}
+.pic img:hover{
+    transform:scale(1.5);
+} */

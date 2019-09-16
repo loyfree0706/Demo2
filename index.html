@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Francois+One|Source+Code+Pro&display=swap" rel="stylesheet">
+  <title>Vue Todo List</title>
+</head>
+<body>
+
+    <div class="delay">
+        <div class="app text-dark">
+            <!-- Header -->
+            <div class="header fixed-top">
+                <div class="row">
+                    <div class="col col-6 align-self-center text-to-center">
+                        <ul class="ul-none">
+                            <li><a href="#">眺岳科技</a></li>
+                            <li><a href="#">Your Innovation Partners</a></li>
+                        </ul>
+                    </div>
+                    <div class="col col-6 align-self-center">
+                        <ul class="ul-none-inline">
+                            <li><a href="#" class="actived">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">智慧醫療</a></li>
+                            <li><a href="#">Request a Demo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detail -->
+            <div class="detail">
+                <div class="h-800-page-1">
+                    <div class="page-1">
+                        <p style="font-size:2em;">Your Innovation Partners</p>
+                        <h1 style="font-size:6em;font-weight:900;">眺岳科技</h1>
+                        <h1 style="font-family: 'Francois One', sans-serif;font-size:3em;">MountainView technology</h1>
+                    </div>
+                </div>
+
+                <div class="h-800-page-2">
+                    <div class="page-2 row">
+                        <div class="page2-1 col-6">
+                        </div>
+                        <div class="page2-2 col-6">
+                            <h1 style="text-align: center;">ABOUT US</h1>
+                            <p>眺岳科技是一個以創新技術研發為導向的專業RD研發工程公司。
+                            <p>我們專門提供(機械、軟體資訊及電子裝置)等跨工程整合的客製化解決方案。</p> 
+                            <p>我們曾為國內外客戶提供各項專案研發。擅長領域從嵌入式系統設計、穿攜式監測裝置、藍牙無線技術、室內定位、機器學習及AI人工智慧應用、3D建模、全端網站架設、電腦手機軟件研發，雲端各式服務，這些都是曾經經手過的項目，並產出具體成果。</p> 
+                            <p>​我們尤其擅長與各類新創公司合作，提供最立即性的即時技術支援。</p> 
+                            <div style="text-align: center;"><button class="btnn">Read More</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <div class="h-500 row">
+                    <div class="page3-1 col-6">
+                        <div>
+                            <h1>CONTACT</h1>
+                            <p>研發總部</p>
+                            <p>花蓮縣花蓮市國慶里中央路三段625號二樓</p>
+                            <p></p>
+                            <p>{{Tel}}</p>
+                            <p>{{Fax}}</p>
+                            <p></p>
+                            <p>{{Email}}</p>
+                            <p>{{Declaration}}</p>
+                        </div>
+                    </div>
+                    <div class="page3-2 col-6">
+                        <div style="width: 425px;">
+                            <form action="">
+                                <div><input type="text" placeholder="Name"></div>
+                                <div><input type="text" placeholder="Eeail"></div>
+                                <div><input type="text" placeholder="Subject"></div>
+                                <div><textarea rows="6" placeholder="Message"></textarea></div>
+                            </form>
+                            <div style="text-align:right;"><input type="submit" style="width: 80px;" class="btnnn" value="Submit"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
