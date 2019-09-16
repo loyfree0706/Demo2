@@ -72,13 +72,13 @@
 }
 
 .page-2{
-    height: 800px;
+    height: 750px;
     /* text-align: center; */
     margin:0px;
 }
 
 .page2-1{
-    height: 100vh;
+    height: 650px;
     background-image: url('./img/doctor.jpg');
     background-size: cover;
     background-position: center;
